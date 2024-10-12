@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Helvetica;
+    font-size:  22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    
+
+}
+#logo{
+    display: inline-flex;
+    
+    justify-content: flex-start;
+    align-self: center;
+    height: 50px;
+    padding: 0;
+    margin:0;
+    margin-left: 10px;
+}
+
+nav{
+position:fixed;
+left: 0;
+width: 100%;
+z-index: 12;
+height: 69px;
+background-color: black;
+display: inline-flex;
+border-bottom: 1px solid seashell;
+
+}
+ul{
+    padding: 0;
+    margin:0;
+    position: absolute;
+    right:50px;
+    display: inline-flex;
+    align-items: center;
+           list-style-type: none;
+           align-self: center;
+
+
+
+}
+li{ padding: 0;
+    margin:0;}
+a{
+    
+    color: seashell;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+#Banner{
+    opacity: 0.9;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    z-index: 1;
+    height: 700px;
+    width: 1200px;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 70px;
+    
+
+
+}
+#Mission{
+    background-color: black;
+    width: 100%;
+}
+#Tea{
+    width: 1000px;
+    margin:auto;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+ 
+.tea{
+    height: 200px;
+    width: 300px;
+    display: inline-flex;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 2;
+}
+#Locations{
+    height: 500px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+span{
+    position: absolute;
+    top: 10%;
+    left: 45%;}
+.loc{
+    margin: auto 0;
+    margin-right: 40px;
+    opacity: 1;
+    width: 300px;
+    background-color: black;
+    line-height: 3;
+    
+}
+section{
+    height: 200px;
+    line-height: 3;
+}
+footer{
+    position:absolute;
+    left:20px;
+}
